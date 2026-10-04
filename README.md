@@ -83,7 +83,7 @@ code_release/
 ├── environment.yml                conda 环境（python 3.13 + pip -r requirements.txt）
 ├── R_package_versions.tsv         R 包版本全表（287 项）
 ├── LICENSE                        MIT
-├── CITATION.cff                   引用信息（含 DOI 占位）
+├── CITATION.cff                   引用信息（含 DOI 与仓库地址）
 ├── .gitignore
 ├── repath.py                      路径重定位工具（移植到新机器后运行一次）
 ├── scripts/                       148 个分析脚本 + 2 个共享模块
@@ -182,7 +182,14 @@ python repath.py \
 
 ## 7 引用
 
-见 [`CITATION.cff`](CITATION.cff)。仓库归档 DOI：`10.5281/zenodo.XXXXXXX`（**待回填**）。
+见 [`CITATION.cff`](CITATION.cff)。
+
+- 仓库：<https://github.com/zanzan98/sc-eqtl-mr-female-infertility>
+- 归档（**版本 DOI**，引用此版本）：**`10.5281/zenodo.23141009`**（归档版 `v1.0.0`）
+- 概念 DOI（恒指最新版）：`10.5281/zenodo.23141008`
+
+> 建议引文（Force 11 数据引用；`[dataset]` 前缀仅供参考文献解析，**出版时移除**）：
+> Zan, Y., Lu, Y., Xia, H., Yuan, X., Xia, L., & Xia, Y. (2026). *sc-eqtl-mr-female-infertility* (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23141009
 
 ## 8 许可
 
