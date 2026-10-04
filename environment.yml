@@ -1,0 +1,24 @@
+name: sc-eqtl-mr-chr1p36
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - -r requirements.txt
+# ---------------------------------------------------------------------------
+# Python 侧依赖的权威版本清单见 requirements.txt（由 pip freeze 生成，89 项）。
+# 核心版本（本机实测，2026-10）：
+#   numpy 2.5.3   pandas 2.3.3   scipy 1.18.1   statsmodels 0.15.0
+#   matplotlib 3.11.1  seaborn 0.13.2  lxml 5.4.0  pymupdf 1.28.2
+#   requests 2.34.2  pyarrow 25.0.1  openpyxl 3.1.5  twosamplemr 0.1.3
+#
+# R 侧（不在本文件中）：R 4.6.1 + 287 个包，权威清单见 R_package_versions.tsv。
+#   关键包：coloc 5.2.3 / susieR 0.14.2 / TwoSampleMR 0.7.9 / MVMR 0.4.8 /
+#           MRPRESSO 1.0 / RadialMR 1.2.4 / MRMix 0.1.0 / ieugwasr 1.1.0 /
+#           data.table 1.18.6.1 / ggplot2 4.0.3 / qvalue 2.44.0
+#
+# 外部可执行程序（需另行安装，见 README.md §2.3）：
+#   plink.exe, smr-1.3.1-win-x86_64 (SMR), tabix, bgzip
+# ---------------------------------------------------------------------------

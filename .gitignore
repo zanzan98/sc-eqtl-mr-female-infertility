@@ -1,0 +1,51 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- R ----
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj.user/
+
+# ---- 数据（体积大 / 可从公共来源重建，见 docs/DATA_SOURCES.md）----
+00_data_raw/
+_tmp_p2/
+_tmp_p2l/
+_tmp_p2m/
+*.tar.gz
+*.h.tsv.gz
+*.h.tsv.gz.tbi
+*.bim
+*.bed
+*.fam
+*.ld
+
+# ---- 结果产物（由脚本链重算；投稿所需子集在 Supplementary_Data.zip）----
+tables/
+figures/
+logs/
+supplementary_data/
+supplementary_data.zip
+Supplementary_Data.zip
+
+# ---- 稿件与文档构建中间件 ----
+*.docx
+*.pdf
+*.tmp
+*.bak*
+*_预览.pdf
+
+# ---- 本机/编辑器 ----
+.DS_Store
+Thumbs.db
+*.swp
+*~
+desktop.ini
+
+# ---- repath.py 的备份目录 ----
+_repath_backup_*/

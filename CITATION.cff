@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived release (DOI) and the associated article."
+title: "Single-cell eQTL Mendelian randomization reveals an immune cell-type-specific causal association region for female infertility: regional association at chr1p36.12 and WNT4 as the prioritized candidate"
+type: software
+authors:
+  - family-names: Zan
+    given-names: Yan
+    affiliation: "Nanjing University of Chinese Medicine"
+  - family-names: Lu
+    given-names: Yuchen
+    affiliation: "Nanjing University of Chinese Medicine"
+  - family-names: Xia
+    given-names: Hongchen
+    affiliation: "Qinghai University Medical College"
+  - family-names: Yuan
+    given-names: Xinyu
+    affiliation: "Nanjing Medical University"
+  - family-names: Xia
+    given-names: Liangjun
+    affiliation: "Nanjing University of Chinese Medicine"
+    email: xlj77@njucm.edu.cn
+  - family-names: Xia
+    given-names: Youbing
+    affiliation: "Nanjing University of Chinese Medicine"
+    email: xybd1968@njucm.edu.cn
+year: 2026
+license: MIT
+repository-code: "https://github.com/[★ 待填：GitHub 仓库 URL]"
+doi: "10.5281/zenodo.XXXXXXX"
+keywords:
+  - female infertility
+  - single-cell eQTL
+  - Mendelian randomization
+  - colocalization
+  - fine-mapping
+  - chr1p36.12
+  - phenome-wide association study
+abstract: >-
+  Analysis code for a two-sample Mendelian randomization study that uses OneK1K
+  single-cell cis-eQTL data (980 donors, 14 immune cell types) as the exposure and
+  female infertility GWAS (GCST90483463) as the outcome, integrating colocalization,
+  conditional analysis, fine-mapping, cis-SMR/HEIDI and a phenome-wide scan
+  (FinnGen R12). The pipeline comprises 148 scripts (136 Python, 12 R).
